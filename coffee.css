@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Dancing+Script&family=Great+Vibes&family=Pacifico&family=Rubik+Beastly&family=Satisfy&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: rgb(170, 38, 15);
+    background-image: url(./images/traditional-coffee-cup-heart-shaped-steam-rustic-wood-70228609.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-img{
+    width: 100%;
+    height: 414px;
+    background: url(./images/traditional-coffee-cup-heart-shaped-steam-rustic-wood-70228609.jpg);
+    background-size: cover;
+}
+.text-block{
+    
+    bottom: 20px;
+    right: 20px;
+    
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+p{
+    color: white;
+}
+
+
+h1{
+    padding-left: 76px;
+    padding-bottom: 200px;
+    padding-right: 200px;
+    padding-top: 170px;
+    width: 49%;
+    height: 100px;
+    font-size: 70px;
+    font-family: 'Great Vibes', cursive;
+    color: rgb(168, 85, 25);
+}
+nav{
+    width: 100%;
+    height: 66px;
+    background-color:chocolate;
+    line-height: 75px;
+    padding: 0px 2px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+
+}
+nav .logo{
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    
+}
+nav .logo p{
+    float: left;
+    color:white;
+    text-transform: uppercase;
+    padding-left: -97px;
+    padding-top: 0px;
+
+}
+nav ul{
+    float: right;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0px 32px;
+}
+nav ul li a:hover{
+    color: rgb(78, 44, 172);
+
+}
+.t1 div{
+    background-color:transparent;
+    width: 20%;
+    border: transparent;
+    float: left;
+    height: 532px;
+    padding: 11px;
+    font-family: 'Satisfy', cursive;
+}
+.t1 div p{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.t1 h1{
+    text-align: center;
+    color:chocolate;
+    top: 20px;
+    padding-top: 0px;
+    
+
+
+}
+.t1  h2{
+    color: white;
+    font-family: serif;
+    
+}
+.t1  img{
+    width: 100%;
+    height: 206px;
+    
+}
+.t1 img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1,1.1);
+}
+.d1 h1{
+    padding-left: 20px;
+    font-size: -23px
+    
+    
+
+}
+.d1 div p{
+    height: 165px;
+    width: 1349px;
+    padding-left: 357px;
+    float: left;
+    bottom: 0;
+    font-size: 20px;
+    text-shadow: darkgrey;
+    color: white;
+}
+.f1 h1{
+    font-size: 81px;
+    position: relative;
+    top: 112px;
+    text-align: center;
+    left: 389px;
+    color: chocolate;
+    
+    
+    
+}
+.f1 div img{
+    padding-left: 30px;
+    float: left;
+    padding-top: 201px;
+    height: 20%;
+    width: 25%;
+    
+    
+}
+.f1 div img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1,1.1);
+}
+.g1 h1{
+    font-size: 81px;
+    position: relative;
+    top: 6px;
+    text-align: center;
+    left: -74px;
+}
+.g1  p{
+    color: white;
+    font-size: 32px;
+
+    
+    padding-left: 429px;
+    
+
+    height: 20px;
+    width: 1233px;
+    padding-top: 159px;
+}
+.e1  
+{  
+    margin: 0;  
+    padding: 0;  
+    background-color:transparent;  
+    font-family: 'Arial';  
+}  
+.login{  
+        width: 382px;  
+        overflow: hidden;  
+        margin: auto;  
+        margin: 20 0 0 450px;  
+        padding: 41px;  
+        background: chocolate; 
+        border-radius: 15px ;  
+          
+}  
+.n1 h2{  
+    text-align: center;  
+    color: white;  
+    padding: 20px;
+    padding-top: 161px; 
+}  
+label{  
+    color: #08ffd1;  
+    font-size: 17px;  
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+}  
+#log{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: blue;  
+  
+  
+}  
+span{  
+    color: white;  
+    font-size: 17px;  
+}  
+.e1 a{  
+    float: right;  
+    background-color: grey;  
+}  
+
+.footer-basic {
+    padding:40px 0;
+    background-color:black;
+    color:white;
+}
+  
+.footer-basic ul {
+    padding:0;
+    list-style:none;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+}
+  
+.footer-basic li {
+    padding:0 10px;
+}
+  
+.footer-basic ul a {
+    color:inherit;
+    text-decoration:none;
+    opacity:0.8;
+}
+  
+.footer-basic ul a:hover {
+    opacity:1;
+}
+  
+.footer-basic .social {
+    text-align:center;
+    padding-bottom:25px;
+}
+  
+.footer-basic .social > a {
+    font-size:24px;
+    width:40px;
+    height:40px;
+    line-height:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius:50%;
+    border:1px solid #ccc;
+    margin:0 8px;
+    color:inherit;
+    opacity:0.75;
+}
+  
+.footer-basic .social > a:hover {
+    opacity:0.9;
+}
+  
+.footer-basic .copyright {
+    margin-top:15px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
